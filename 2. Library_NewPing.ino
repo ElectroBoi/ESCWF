@@ -1,7 +1,7 @@
 //Menambahkan Library NewPing untuk membaca sensor ultrasonic
 #include <NewPing.h>
 
-// pin arduino yang terhubung dengan pin Trigger & Echo sensor ultrasonik
+// pin arduino yang terhubung dengan pin Trigger & Echo sensor ultrasonik 
 #define TRIGGER_PIN  13 
 #define ECHO_PIN     12  
 
