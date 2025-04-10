@@ -5,7 +5,7 @@
 #define kananMundur 2
 
 
-//Mendefinisikan pin kontrol 
+//Mendefinisikan pin kontrol kecepatan Motor pada H-Bridge
 #define speedKanan 5
 #define speedKiri  6
 
