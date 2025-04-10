@@ -29,7 +29,7 @@ void setup() {
 //Taruh Kode dalam fungsi loop() untuk dijalankan terus-menerus hingga microcontroller mati (power off)
 void loop() {
 
-  //Kode Untuk Mengkontrol Arah Putaran Motor/Dinamo
+  //Kode Untuk Mengkontrol Arah Putaran Motor/Dinamo (Pastikan satu motor tidak true pada kedua pin maju & mundur)
   digitalWrite (kiriMaju  , true);
   digitalWrite (kiriMundur, false);
   digitalWrite (kananMaju , true);
