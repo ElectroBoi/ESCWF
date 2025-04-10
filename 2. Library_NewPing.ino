@@ -19,9 +19,7 @@ void setup() {
 }
 
 void loop() {
-  //Menunggu 50ms setiap pembacaan sensor, waktu delay terendah untuk jarak 200cm 29ms
-  delay(50);                     
-
+                
   /*
   Menulis hasil pembacaan sensor ke komunikasi Serial dengan memanggil object newping yang terinisialisasi diatas, 
   lalu memanggil fungsi "ping_cm()" untuk membaca data yang telah dihitung menjadi cm
@@ -29,4 +27,8 @@ void loop() {
   Serial.print("Ping: ");
   Serial.print(sonar.ping_cm()); 
   Serial.println("cm");
+
+  //Menunggu 50ms setiap pembacaan sensor, waktu delay terendah untuk jarak 200cm 29ms
+  delay(50);      
+  
 }
