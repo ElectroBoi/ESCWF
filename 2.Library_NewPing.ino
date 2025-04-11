@@ -2,8 +2,8 @@
 #include <NewPing.h>
 
 // pin arduino yang terhubung dengan pin Trigger & Echo sensor ultrasonik 
-#define TRIGGER_PIN  5
-#define ECHO_PIN     4  
+#define TRIGGER_PIN  11
+#define ECHO_PIN     10 
 
 // jarak maksimum sensor (di sesuaikan dengan spesifikasi sensor yang digunakan, distance maksimum sensor WallFollower Lab adalah 200cm atau 2 Meter)
 #define MAX_DISTANCE 200 
