@@ -6,6 +6,6 @@ https://downloads.arduino.cc/arduino-ide/arduino-ide_2.3.6_Windows_64bit.exe
 
 Percobaan 1 : Koding Motor Driver<br>
 Percobaan 2 : Koding Library NewPing untuk membaca Sensor Ultrasonik<br>
-Percobaan 3 : Mencoba menjalankan Robot WallFollower dengan menggunakan Sensor depan saja<br>
+Percobaan 3 : Mencoba menjalankan Robot WallFollower dengan menggunakan 3 Sensor Ultrasonik dan dua HBridge<br>
 
 Selamat Berkreasi!
