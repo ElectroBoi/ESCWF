@@ -1,8 +1,4 @@
 #include <NewPing.h>
-#include <elapsedMillis.h>
-
-elapsedMillis timer1;
-elapsedMillis timer2;
 
 
 // Motor control pins
